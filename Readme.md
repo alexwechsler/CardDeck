@@ -1,15 +1,15 @@
 # Basic Card Deck Implementation
 
-Hello this project implements a simple deck of cards with a few basic features outlined below. I have also utilized a Strategy pattern for two behaviors namely value and compare which I can forsee varying based on the kind of game that is being played. 
+Hello this project implements a simple deck of cards with a few basic features outlined below. I have also utilized a Strategy pattern for two behaviors namely value and compare which I can forsee varying based on the kind of game that is being played.
 
 I will simply provide a few usage examples of deck in order to demonstrate usage.
 The deck has the following features...
-    - DeckofCards.new                   # New Deck
-    - DeckofCards.new('BlackJack')      # Create a Deck for BlackJack
-    - shuffle                           # Shuffle the Deck
-    - deal                              # removes a card from the top
-    - add                               # adds a card to the bottom of the deck
-    - compare                           # compares 2 cards based on value behavior
+    ⋅⋅* DeckofCards.new                   # New Deck
+    ⋅⋅* DeckofCards.new('BlackJack')      # Create a Deck for BlackJack
+    ⋅⋅* shuffle                           # Shuffle the Deck
+    ⋅⋅* deal                              # removes a card from the top
+    ⋅⋅* add                               # adds a card to the bottom of the deck
+    ⋅⋅* compare                           # compares 2 cards based on value behavior
 
 start irb
 irb(main):001:0> load 'deck_of_cards.rb'
